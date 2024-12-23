@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pdf/pdf_network.dart';
 import 'package:pdfx/pdfx.dart';
 void main() {
-  runApp( MaterialApp(home: PdfViewerScreen()));
+  runApp( MaterialApp(home: NetworkPdfViewerScreen()));
 }
 
 
